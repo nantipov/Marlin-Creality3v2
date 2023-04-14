@@ -51,15 +51,9 @@ namespace Language_ru {
   LSTR MSG_MEDIA_READ_ERROR                 = _UxGT("Ошибка считывания");
   LSTR MSG_MEDIA_USB_REMOVED                = _UxGT("USB диск удалён");
   LSTR MSG_MEDIA_USB_FAILED                 = _UxGT("Ошибка USB диска");
-  #if LCD_WIDTH > 21 || HAS_DWIN_E3V2
-    LSTR MSG_KILL_SUBCALL_OVERFLOW          = _UxGT("Переполнение вызова");
-  #else
-    LSTR MSG_KILL_SUBCALL_OVERFLOW          = _UxGT("Переполн. вызова");
-  #endif
-  LSTR MSG_LCD_SOFT_ENDSTOPS                = _UxGT("Прогр. эндстопы");
-  LSTR MSG_LCD_ENDSTOPS                     = _UxGT("Эндстопы"); // Max length 8 characters
-  LSTR MSG_MAIN                             = _UxGT("Основное меню");
-  LSTR MSG_ADVANCED_SETTINGS                = _UxGT("Другие настройки");
+  LSTR MSG_LCD_SOFT_ENDSTOPS                = _UxGT("Прогр. концевики");
+  LSTR MSG_LCD_ENDSTOPS                     = _UxGT("Концевик"); // Max length 8 characters
+  LSTR MSG_MAIN_MENU                        = _UxGT("Главное меню");
   LSTR MSG_CONFIGURATION                    = _UxGT("Конфигурация");
   LSTR MSG_RUN_AUTO_FILES                   = _UxGT("Автостарт");
   LSTR MSG_DISABLE_STEPPERS                 = _UxGT("Выключить двигатели");
